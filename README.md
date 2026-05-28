@@ -1,5 +1,3 @@
-# materials-multimodal-db
-Codex skill for building specimen-centric multimodal materials literature databases from PDFs, including tensile data, figure indexing, image crops, review queues, and release tables.
 # Materials Multimodal DB
 
 `materials-multimodal-db` is a Codex skill for building specimen-centric multimodal materials literature databases from scientific PDFs. It supports source-corpus inventory, figure/table/caption indexing, image extraction and cropping, tensile-property extraction, microstructure evidence records, figure-specimen-property links, review queues, validation reports, and reusable release tables.
