@@ -1,0 +1,2 @@
+tensile_id,specimen_id,yield_strength_mpa,ultimate_tensile_strength_mpa,elongation_pct,test_temperature_c,direction,value_source,source_locator,confidence,notes
+SYNTH001-T1,SYNTH001-S1,520,790,32,25,Z,table_value,Table 2,high,synthetic example row

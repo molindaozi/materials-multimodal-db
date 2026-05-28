@@ -1,0 +1,2 @@
+paper_id,figure_key,accepted,source_type,figure_label,figure_number,panel_label,page_number,caption_text,page_image_path,crop_image_path,crop_method,confidence,notes
+SYNTH001,SYNTH001:fig1,yes,figure,Fig. 1,1,a,3,SEM micrograph of the synthetic alloy specimen showing columnar grains and melt-pool boundaries.,data/figures/SYNTH001/page_3.svg,data/figures/SYNTH001/fig1a_crop.svg,synthetic_crop,high,synthetic example image

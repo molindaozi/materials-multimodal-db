@@ -1,0 +1,2 @@
+image_id,paper_id,figure_key,panel_label,modality,image_region,confidence,notes
+SYNTH001-IMG1,SYNTH001,SYNTH001:fig1,a,SEM,microstructure,high,synthetic panel link

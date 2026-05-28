@@ -1,0 +1,2 @@
+﻿multimodal_id,paper_id,doi,figure_index_id,figure_key,figure_label,panel_label,modality,specimen_id,tensile_id,material_system,alloy_name,process,build_direction,heat_treatment,test_temperature_c,direction,yield_strength_mpa,ultimate_tensile_strength_mpa,elongation_pct,crop_image_path,source_locator,confidence,review_status
+MML000001,SYNTH001,10.0000/synthetic.materials.001,FIGIDX000001,SYNTH001:fig1,Fig. 1,a,SEM,SYNTH001-S1,SYNTH001-T1,Ni-based alloy,Synthetic Alloy 625,LPBF,Z,solution annealed,25,Z,520,790,32,,Table 2,high,auto_curated

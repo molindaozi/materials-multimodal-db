@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="840" viewBox="0 0 640 840">
+  <rect width="640" height="840" fill="#ffffff"/>
+  <text x="48" y="64" font-family="Arial" font-size="28" fill="#111827">Synthetic paper page</text>
+  <rect x="72" y="140" width="420" height="280" fill="#e5e7eb" stroke="#374151" stroke-width="3"/>
+  <text x="96" y="190" font-family="Arial" font-size="24" fill="#111827">Fig. 1a SEM micrograph</text>
+  <path d="M100 260 C160 210 240 310 310 250 S430 270 470 220" fill="none" stroke="#2563eb" stroke-width="5"/>
+  <path d="M110 330 C180 280 250 380 340 315 S440 340 475 290" fill="none" stroke="#16a34a" stroke-width="5"/>
+  <text x="72" y="472" font-family="Arial" font-size="20" fill="#374151">Caption: synthetic, non-copyrighted example.</text>
+</svg>

@@ -1,0 +1,2 @@
+specimen_id,paper_id,material_system,alloy_name,process,build_direction,heat_treatment,post_processing,specimen_geometry,source_locator,notes
+SYNTH001-S1,SYNTH001,Ni-based alloy,Synthetic Alloy 625,LPBF,Z,solution annealed,none,ASTM subsize,Table 1; Fig. 1,synthetic example row

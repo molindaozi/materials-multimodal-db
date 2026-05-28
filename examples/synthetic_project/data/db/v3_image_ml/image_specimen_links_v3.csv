@@ -1,0 +1,2 @@
+image_id,paper_id,specimen_id,tensile_id,link_basis,confidence,review_status,notes
+SYNTH001-IMG1,SYNTH001,SYNTH001-S1,SYNTH001-T1,caption and specimen label,high,auto_curated,synthetic figure-specimen-property link

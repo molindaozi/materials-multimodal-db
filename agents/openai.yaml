@@ -1,0 +1,7 @@
+interface:
+  display_name: "Materials Literature Multimodal DB"
+  short_description: "Build multimodal materials literature databases."
+  default_prompt: "Use $materials-multimodal-db to build a specimen-centric multimodal database from materials literature PDFs."
+
+policy:
+  allow_implicit_invocation: true

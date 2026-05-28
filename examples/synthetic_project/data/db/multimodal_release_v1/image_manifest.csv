@@ -1,0 +1,3 @@
+﻿image_id,figure_index_id,paper_id,doi,figure_label,panel_label,image_role,source_path,release_path,file_exists,sha256,crop_method,license_status,redistribution_status,review_status
+IMG000001,FIGIDX000001,SYNTH001,10.0000/synthetic.materials.001,Fig. 1,a,page,data/figures/SYNTH001/page_3.svg,images/FIGIDX000001_page.svg,yes,88d8404eadca5561a5ea1e083bd1ff6043f7a9e4614c19d5d783bb01c7e7b81d,synthetic_crop,allowed,allowed,auto_curated
+IMG000002,FIGIDX000001,SYNTH001,10.0000/synthetic.materials.001,Fig. 1,a,crop,data/figures/SYNTH001/fig1a_crop.svg,images/FIGIDX000001_crop.svg,yes,68e80e1d7aae3eea9d8dc078e40066f87b71d3273865ef6183af8aa5de1fc4dd,synthetic_crop,allowed,allowed,auto_curated

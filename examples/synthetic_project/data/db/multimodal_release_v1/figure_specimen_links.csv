@@ -1,0 +1,2 @@
+﻿link_id,figure_index_id,paper_id,doi,figure_key,figure_label,panel_label,modality,specimen_id,tensile_id,link_basis,confidence,review_status
+FSL000001,FIGIDX000001,SYNTH001,10.0000/synthetic.materials.001,SYNTH001:fig1,Fig. 1,a,SEM,SYNTH001-S1,SYNTH001-T1,caption and specimen label,high,auto_curated

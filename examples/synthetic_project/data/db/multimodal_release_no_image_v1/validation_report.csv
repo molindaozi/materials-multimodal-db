@@ -1,0 +1,8 @@
+﻿check,status,detail
+paper_count,ok,1
+figure_index_count,ok,1
+figure_link_count,ok,1
+review_queue_count,ok,0
+missing_image_files,ok,0
+uncertain_image_licenses,ok,0
+no_image_path_leakage,ok,0

@@ -1,0 +1,568 @@
+{
+  "tables": {
+    "papers.csv": {
+      "fields": [
+        {
+          "name": "paper_id",
+          "type": "string"
+        },
+        {
+          "name": "doi",
+          "type": "string"
+        },
+        {
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "name": "journal",
+          "type": "string"
+        },
+        {
+          "name": "publisher",
+          "type": "string"
+        },
+        {
+          "name": "year",
+          "type": "string"
+        },
+        {
+          "name": "material_system",
+          "type": "string"
+        },
+        {
+          "name": "alloy_name",
+          "type": "string"
+        },
+        {
+          "name": "process",
+          "type": "string"
+        },
+        {
+          "name": "inclusion_status",
+          "type": "string"
+        },
+        {
+          "name": "article_license",
+          "type": "string"
+        },
+        {
+          "name": "license_url",
+          "type": "string"
+        },
+        {
+          "name": "open_access_status",
+          "type": "string"
+        },
+        {
+          "name": "image_redistribution_status",
+          "type": "string"
+        }
+      ]
+    },
+    "specimens.csv": {
+      "fields": [
+        {
+          "name": "specimen_id",
+          "type": "string"
+        },
+        {
+          "name": "paper_id",
+          "type": "string"
+        },
+        {
+          "name": "material_system",
+          "type": "string"
+        },
+        {
+          "name": "alloy_name",
+          "type": "string"
+        },
+        {
+          "name": "process",
+          "type": "string"
+        },
+        {
+          "name": "build_direction",
+          "type": "string"
+        },
+        {
+          "name": "heat_treatment",
+          "type": "string"
+        },
+        {
+          "name": "post_processing",
+          "type": "string"
+        },
+        {
+          "name": "specimen_geometry",
+          "type": "string"
+        },
+        {
+          "name": "source_locator",
+          "type": "string"
+        },
+        {
+          "name": "notes",
+          "type": "string"
+        }
+      ]
+    },
+    "tensile_properties.csv": {
+      "fields": [
+        {
+          "name": "tensile_id",
+          "type": "string"
+        },
+        {
+          "name": "specimen_id",
+          "type": "string"
+        },
+        {
+          "name": "yield_strength_mpa",
+          "type": "string"
+        },
+        {
+          "name": "ultimate_tensile_strength_mpa",
+          "type": "string"
+        },
+        {
+          "name": "elongation_pct",
+          "type": "string"
+        },
+        {
+          "name": "test_temperature_c",
+          "type": "string"
+        },
+        {
+          "name": "direction",
+          "type": "string"
+        },
+        {
+          "name": "value_source",
+          "type": "string"
+        },
+        {
+          "name": "source_locator",
+          "type": "string"
+        },
+        {
+          "name": "confidence",
+          "type": "string"
+        },
+        {
+          "name": "notes",
+          "type": "string"
+        },
+        {
+          "name": "paper_id",
+          "type": "string"
+        },
+        {
+          "name": "review_status",
+          "type": "string"
+        }
+      ]
+    },
+    "microstructure_records.csv": {
+      "fields": [
+        {
+          "name": "microstructure_id",
+          "type": "string"
+        },
+        {
+          "name": "specimen_id",
+          "type": "string"
+        },
+        {
+          "name": "microstructure_feature",
+          "type": "string"
+        },
+        {
+          "name": "modality",
+          "type": "string"
+        },
+        {
+          "name": "source_locator",
+          "type": "string"
+        },
+        {
+          "name": "confidence",
+          "type": "string"
+        },
+        {
+          "name": "notes",
+          "type": "string"
+        }
+      ]
+    },
+    "figure_index.csv": {
+      "fields": [
+        {
+          "name": "figure_index_id",
+          "type": "string"
+        },
+        {
+          "name": "paper_id",
+          "type": "string"
+        },
+        {
+          "name": "doi",
+          "type": "string"
+        },
+        {
+          "name": "figure_key",
+          "type": "string"
+        },
+        {
+          "name": "figure_label",
+          "type": "string"
+        },
+        {
+          "name": "figure_number",
+          "type": "string"
+        },
+        {
+          "name": "panel_label",
+          "type": "string"
+        },
+        {
+          "name": "page_number",
+          "type": "string"
+        },
+        {
+          "name": "source_type",
+          "type": "string"
+        },
+        {
+          "name": "modality_candidates",
+          "type": "string"
+        },
+        {
+          "name": "image_region_candidates",
+          "type": "string"
+        },
+        {
+          "name": "evidence_terms",
+          "type": "string"
+        },
+        {
+          "name": "page_image_path",
+          "type": "string"
+        },
+        {
+          "name": "crop_image_path",
+          "type": "string"
+        },
+        {
+          "name": "crop_method",
+          "type": "string"
+        },
+        {
+          "name": "caption_hash_sha256",
+          "type": "string"
+        },
+        {
+          "name": "caption_excerpt",
+          "type": "string"
+        },
+        {
+          "name": "license_status",
+          "type": "string"
+        },
+        {
+          "name": "redistribution_status",
+          "type": "string"
+        },
+        {
+          "name": "review_status",
+          "type": "string"
+        },
+        {
+          "name": "confidence",
+          "type": "string"
+        },
+        {
+          "name": "notes",
+          "type": "string"
+        }
+      ]
+    },
+    "image_manifest.csv": {
+      "fields": [
+        {
+          "name": "image_id",
+          "type": "string"
+        },
+        {
+          "name": "figure_index_id",
+          "type": "string"
+        },
+        {
+          "name": "paper_id",
+          "type": "string"
+        },
+        {
+          "name": "doi",
+          "type": "string"
+        },
+        {
+          "name": "figure_label",
+          "type": "string"
+        },
+        {
+          "name": "panel_label",
+          "type": "string"
+        },
+        {
+          "name": "image_role",
+          "type": "string"
+        },
+        {
+          "name": "source_path",
+          "type": "string"
+        },
+        {
+          "name": "release_path",
+          "type": "string"
+        },
+        {
+          "name": "file_exists",
+          "type": "string"
+        },
+        {
+          "name": "sha256",
+          "type": "string"
+        },
+        {
+          "name": "crop_method",
+          "type": "string"
+        },
+        {
+          "name": "license_status",
+          "type": "string"
+        },
+        {
+          "name": "redistribution_status",
+          "type": "string"
+        },
+        {
+          "name": "review_status",
+          "type": "string"
+        }
+      ]
+    },
+    "figure_specimen_links.csv": {
+      "fields": [
+        {
+          "name": "link_id",
+          "type": "string"
+        },
+        {
+          "name": "figure_index_id",
+          "type": "string"
+        },
+        {
+          "name": "paper_id",
+          "type": "string"
+        },
+        {
+          "name": "doi",
+          "type": "string"
+        },
+        {
+          "name": "figure_key",
+          "type": "string"
+        },
+        {
+          "name": "figure_label",
+          "type": "string"
+        },
+        {
+          "name": "panel_label",
+          "type": "string"
+        },
+        {
+          "name": "modality",
+          "type": "string"
+        },
+        {
+          "name": "specimen_id",
+          "type": "string"
+        },
+        {
+          "name": "tensile_id",
+          "type": "string"
+        },
+        {
+          "name": "link_basis",
+          "type": "string"
+        },
+        {
+          "name": "confidence",
+          "type": "string"
+        },
+        {
+          "name": "review_status",
+          "type": "string"
+        }
+      ]
+    },
+    "multimodal_ml_database.csv": {
+      "fields": [
+        {
+          "name": "multimodal_id",
+          "type": "string"
+        },
+        {
+          "name": "paper_id",
+          "type": "string"
+        },
+        {
+          "name": "doi",
+          "type": "string"
+        },
+        {
+          "name": "figure_index_id",
+          "type": "string"
+        },
+        {
+          "name": "figure_key",
+          "type": "string"
+        },
+        {
+          "name": "figure_label",
+          "type": "string"
+        },
+        {
+          "name": "panel_label",
+          "type": "string"
+        },
+        {
+          "name": "modality",
+          "type": "string"
+        },
+        {
+          "name": "specimen_id",
+          "type": "string"
+        },
+        {
+          "name": "tensile_id",
+          "type": "string"
+        },
+        {
+          "name": "material_system",
+          "type": "string"
+        },
+        {
+          "name": "alloy_name",
+          "type": "string"
+        },
+        {
+          "name": "process",
+          "type": "string"
+        },
+        {
+          "name": "build_direction",
+          "type": "string"
+        },
+        {
+          "name": "heat_treatment",
+          "type": "string"
+        },
+        {
+          "name": "test_temperature_c",
+          "type": "string"
+        },
+        {
+          "name": "direction",
+          "type": "string"
+        },
+        {
+          "name": "yield_strength_mpa",
+          "type": "string"
+        },
+        {
+          "name": "ultimate_tensile_strength_mpa",
+          "type": "string"
+        },
+        {
+          "name": "elongation_pct",
+          "type": "string"
+        },
+        {
+          "name": "crop_image_path",
+          "type": "string"
+        },
+        {
+          "name": "source_locator",
+          "type": "string"
+        },
+        {
+          "name": "confidence",
+          "type": "string"
+        },
+        {
+          "name": "review_status",
+          "type": "string"
+        }
+      ]
+    },
+    "review_queue.csv": {
+      "fields": [
+        {
+          "name": "review_id",
+          "type": "string"
+        },
+        {
+          "name": "entity_type",
+          "type": "string"
+        },
+        {
+          "name": "entity_id",
+          "type": "string"
+        },
+        {
+          "name": "paper_id",
+          "type": "string"
+        },
+        {
+          "name": "issue",
+          "type": "string"
+        },
+        {
+          "name": "current_value",
+          "type": "string"
+        },
+        {
+          "name": "recommended_action",
+          "type": "string"
+        },
+        {
+          "name": "review_decision",
+          "type": "string"
+        },
+        {
+          "name": "review_notes",
+          "type": "string"
+        }
+      ]
+    },
+    "validation_report.csv": {
+      "fields": [
+        {
+          "name": "check",
+          "type": "string"
+        },
+        {
+          "name": "status",
+          "type": "string"
+        },
+        {
+          "name": "detail",
+          "type": "string"
+        }
+      ]
+    }
+  }
+}
