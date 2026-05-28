@@ -5,7 +5,6 @@
 ## Affiliation
 
 
-- Institution: Tsinghua University
 - Research context: materials literature mining, microstructure-property databases, and multimodal scientific data extraction
 - Maintainer: `molindaozi`
 
