@@ -6,7 +6,7 @@
 
 
 - Research context: materials literature mining, microstructure-property databases, and multimodal scientific data extraction
-- Maintainer: `molindaozi`
+- Maintainer: `Heyu Song`,`Jinlai Xiang`
 
 
 ## What This Skill Does
